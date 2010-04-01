@@ -236,7 +236,7 @@ See file 'example.poi' for '.poi' format illustration.
 3. Installation:
 ----------------
 
-A UNIX Makefile is provided for producing the executables.
+A GNU Makefile is provided for producing the executables.
 
 1) Edit that file and enter your favorite compiler and compiler
 options - gcc works fine !!

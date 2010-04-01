@@ -1,3 +1,4 @@
+ 
 PORTA is a collection of routines for analyzing polytopes and
 polyhedra. The polyhedra are either given as the convex hull of a set
 of points plus (possibly) the convex cone of a set of vectors, or as a
@@ -30,7 +31,7 @@ are  performed. If an arithmetic overflow occurs with the systems
 integer arithmetic  then  the  computations can be restarted with a double
 precision integer arithmetic.
  
-    Copyright (C) 1997 Thomas Christof, Andreas Loebel
+    Copyright (C) 1997-2009 Thomas Christof, Andreas Loebel
  
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -45,10 +46,3 @@ precision integer arithmetic.
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- 
-Thomas Christof                          Andreas Loebel
-Universitaet Heidelberg                  Konrad-Zuse-Zentrum fuer
-Im Neuenheimer Feld 294                  Informationstechnik (ZIB)
-D-69120 Heidelberg                       Takustr. 7
-Thomas.Christof@IWR.Uni-Heidelberg.De    D-14195 Berlin-Dahlem
-                                         loebel@zib.de
