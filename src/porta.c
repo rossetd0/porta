@@ -53,8 +53,8 @@ FILE *logfile;
 int main( int argc, char *argv[] )
 {
     int i, ieq_file, start;
-    char outfname[20];
-    char fname[20];
+    char outfname[2000];
+    char fname[2000];
     int   poi_file;
     int   rowl_inar, ierl;
     int  *indx = (int *)0;      
