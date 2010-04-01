@@ -518,7 +518,7 @@ void valid_ints( int eqdimpar, RAT *eqarpar, int neqpar,int eqrlpar,
 #if defined WIN32
     free(integ);
 #else // WIN32
-    cfree(integ);
+    free(integ);
 #endif // WIN32
 
     fprintf(fp,"\nEND\n");

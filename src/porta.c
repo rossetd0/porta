@@ -836,7 +836,7 @@ int no_denom( int sysrow, int first, int last, int outmsg )
 #if defined WIN32 || defined __CYGWIN32__
     free(denom);
 #else // WIN32
-    cfree(denom);
+    free(denom);
 #endif // WIN32
 
     return(ret);
